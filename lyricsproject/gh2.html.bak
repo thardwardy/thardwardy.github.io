@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Guitar Hero II | The Lyrics Project | thardwardy</title>
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" media="screen" href="../style.css">
+	</head>
+	<body>
+		<div class="sidenav">
+			<a href="../index.html">home</a>
+			<a href="../githubprojects.html">github projects</a>
+			<a href="../ghrb.html">gh/rb</a>
+		</div>
+
+		<div class="main">
+			<a href="../thelyricsproject.html"><h1>The Lyrics Project</h1></a>
+			<h2>Guitar Hero II</h2>
+			<h6>*Cover by Wavegroup</h6>
+			<h3>1. Opening Licks</h3>
+			<br>
+			<h3>2. Amp Warmers</h3>
+			<br>
+			<h3>3. String-Snappers</h3>
+			<a href="gh2/warpigs.html">War Pigs*</a><br>
+			<br>
+			<h3>4. Thrash and Burn</h3>
+			<a href="gh2/sweetchildomine.html">Sweet Child o' Mine*</a><br>
+			<br>
+			<h3>5. Return of the Shred</h3>
+			<br>
+			<h3>6. Relentless Riffs</h3>
+			<a href="gh2/killinginthename.html">Killing in the Name*</a><br>
+			<br>
+			<h3>7. Furious Fretwork</h3>
+			<a href="gh2/psychobillyfreakout.html">Psychobilly Freakout*</a><br>
+			<br>
+			<h3>8. Face-Melters</h3>
+			<a href="gh2/misirlou.html">Misirlou*</a><br>
+			<a href="gh2/hangar18.html">Hangar 18*</a><br>
+			<br>
+			<h3>Bonus</h3>
+			<a href="gh2/jordan.html">Jordan</a><br>
+			<a href="gh2/mrfixit.html">Mr. Fix It</a><br>
+			<a href="gh2/radiumeyes.html">Radium Eyes</a><br>
+			<a href="gh2/thunderhorse.html">Thunderhorse</a><br>
+			<a href="gh2/trogdor.html">Trogdor</a><br>
+			<br>
+			<h3>Downloadable Content</h3>
+		</div>
+	</body>
+</html>
