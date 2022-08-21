@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Atlas Tool (CH Server Friendly) | Clone Hero Modding</title>
+		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+		<link rel="icon" href="../favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" media="screen" href="../style.css">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta property="og:type" content="website">
+		<meta property="og:site_name" content="Clone Hero Modding">
+		<meta property="og:title" content="Atlas Tool (CH Server Friendly)">
+		<meta property="og:description" content="How to use Atlas Tool to create texture mods for the PTB. Written by thardwardy.">
+		<meta property="og:image" content="https://cloneheromodding.neocities.org/crown.png">
+		<meta name="msapplication-TileColor" content="#3E4BB5">
+		<meta property="theme-color" content="#3E4BB5">
+	</head>
+	<body>
+		<p style="text-align: center;"><img src="../banner.png" width="70%" float="center"></p>
+		<h1>How to Use Atlas Tool</h1>
+		<p>Written by <a href="https://thardwardy.github.io/">thardwardy</a>
+		<h2>Video</h2>
+		<p>Coming Soon...</p>
+		<h2>Text</h2>
+		<p>Download the latest version of <a href="https://github.com/mdsitton/atlastool/releases">Atlas Tool</a> from mdsitton's GitHub and extract it.</p>
+		<img src="atlastool/1.png" width="40%">
+		<p>Create a new folder inside Atlas Tool's folder with a suitable name (such as 'PTB').</p>
+		<img src="atlastool/2.png" width="15%">
+		<p>Open the Clone Hero Launcher, open the 'Settings' tab, and locate 'CloneHero Install Directory'. Click on the folder icon to the right, then 'Yes'.</p>
+		<img src="atlastool/3.png" width="50%">
+		<p>Create a copy of the 'Clone Hero_Data' folder so you have an easily accessible backup incase anything goes wrong. Once you have done that, copy the folder to the 'PTB' folder we created earlier.</p>
+		<p>Once that's finished copying open Command Prompt and 'cd' to Atlas Tool's folder. (If you put the folder on your Desktop you'd type `cd Desktop\atlastool`.</p>
+		<img src="atlastool/4.png" width="20%">
+		<p>In Command Prompt type `atlastool.exe -x -i "PTB\Clone Hero_Data"` and wait. If it says 'Loading assets from PTB\Clone Hero_Data' then you did it right. If it says anything else then make sure you entered the command correctly.</p>
+		<p>Once the next message appears, it's finished extracting.</p>
+		<img src="atlastool/5.png" width="30%">
+		<p>Atlas Tool will have created a folder named after the version number. (The latest PTB at the time of writing is 'v1.0.0.3493-master' so that's what the folder is called. The textures are stored in a folder called 'fiveFretAtlas' located within that folder. Change whatever textures you want to change but DO NOT change the file names.</p>
+		<p>Once you have finished changing the textures go back into Command Prompt and type `atlastool.exe -c -i .\FOLDER NAME` while replacing 'FOLDER NAME' with the name of the folder that Atlas Tool created earlier.</p>
+		<img src="atlastool/6.png" width="30%">
+		<p>Once the process has complete, navigate back to the version folder and there should now be two image files.</p>
+		<p>Download the latest Windows version of <a href="https://github.com/nesrak1/UABEA/releases">UABEA</a> from their GitHub (you may need to scroll down a bit) and extract it.</p>
+		<img src="atlastool/7.png" width="40%">
+		<p>Open `UABEAvalonia.exe` (scroll to the bottom of the folder). Select `File` and then `Open`. Navigate back to your 'CloneHero Install Directory', open the 'Clone Hero_Data' folder, and open `globalgamemanagers`.</p>
+		<p>If you get the popup shown below, scroll to the bottom, click on the option at the bottom, and click 'Ok'.</p>
+		<img src="atlastool/8.png" width="15%">
+		<p>Click on 'Name' at the top until the triangle is pointing pointy side up, and scroll down until you file the file beginning with 'sactx'.</p>
+		<p>Click on 'Plugins' in the right side pannel, then 'Edit texture', and 'Ok'.</p>
+		<p>Now click on 'Load' and navigate to Atlas Tool's folder. Open the version number's folder and double click on the image file ending in '-changed' (the second one if you're sorting alphabetically).</p>
+		<p>Click on 'Save' and wait until the window closes. The program may stop responding, THIS IS NORMAL. Just keep waiting. Once the window closes, select 'File' in the top bar, then 'Save'. Navigate to an easily accessible folder (such as your desktop) and click 'Save'. Once you have done that you can close UABEA.</p>
+		<p>Go back into your CloneHero Install Directory and open the 'Clone Hero_Data' folder (NOT the copy we made earlier). Copy and paste the 'resources.assets' file that UABEA created into your 'Clone Hero_Data' folder and select 'Replace the file in the destination'.</p>
+		<p>You have now modded your game. Congratulations!
+	</body>
+</html>
